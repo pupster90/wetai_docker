@@ -1,10 +1,10 @@
 FROM jupyter/tensorflow-notebook:latest
-# Last Used image: feacdbfc2e89
+# Last Used image: jupyter/tensorflow-notebook:feacdbfc2e89
 USER root
 WORKDIR /home/jovyan
 
-RUN git clone https://github.com/pupster90/io_docker_setup.git
-RUN cd ~/io_docker_setup && chmod +x Set_Computer.sh && ./Set_Computer.sh
+RUN git clone https://github.com/pupster90/wetai_io_docker.git
+RUN cd ~/wetai_io_docker && chmod +x Set_Computer.sh && ./Set_Computer.sh
 
 EXPOSE 80
 EXPOSE 8888
