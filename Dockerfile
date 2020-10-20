@@ -1,4 +1,5 @@
-FROM jupyter/datascience-notebook:f646d2b2a3af
+FROM jupyter/tensorflow-notebook:latest
+# Last Used image: feacdbfc2e89
 USER root
 WORKDIR /home/jovyan
 
