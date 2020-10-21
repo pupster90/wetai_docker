@@ -62,11 +62,20 @@ mv ~/wetai_io_docker/password /usr/local/bin
 
 
 
+# Create user's starting Apps & Files by downloading everything from github
+cd ~ && mkdir Apps Downloads Private Public       #<-- Create folders
+#cd ~/Apps && git clone https://github.com/pupster90/Cytoscape.git
+cd ~/Apps && git clone https://github.com/pupster90/io_View.git
+cd ~/Apps && git clone https://github.com/pupster90/io_Online.git
+#cd ~/Apps && git clone https://github.com/pupster90/io_Blog.git
+#cd ~/Public && git clone https://github.com/pupster90/Public_Profile.git
+cd ~/Public && git clone https://github.com/pupster90/My_First_Research_Paper.git
+#cd ~/Public && git clone https://github.com/pupster90/io_Presentation.git
 
 
 
 #################
 ### Clean up ###
 ###############
-rm -rf ~/work ~/ijava-kernel ~/ijava-kernel.zip ~/io_docker_setup
+#rm -rf ~/work ~/ijava-kernel ~/ijava-kernel.zip ~/io_docker_setup
 
