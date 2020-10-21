@@ -53,6 +53,6 @@ pip install redis
 
 # Setup hidden files
 mkdir ~/.html_files && mv ~/io_docker_setup/login.html ~/.html_files
-mkdir ~/.jupyter/custom && mv ~/wetai_io_docker/Code/Setup_Interface.js ~/.jupyter/custom 
+mkdir ~/.jupyter/custom && mv ~/wetai_io_docker/Code/Set_Interface.js ~/.jupyter/custom 
 
 
