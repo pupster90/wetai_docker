@@ -42,7 +42,13 @@ jupyter nbextension enable move_selected_cells/main
 jupyter nbextension enable splitcell/splitcell
 jupyter nbextension enable tree-filter/index
 
-
-
+# Install required python packages
+pip install PyGithub
+pip install timeago
+pip install --upgrade google-cloud-datastore
+pip install --upgrade firebase-admin
+pip install redis
+#pip install tensorflow==2.0.0-alpha0 
+#pip install keras
 
 
