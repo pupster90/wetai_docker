@@ -12,7 +12,7 @@ import sys
 
 if __name__ == "__main__":
     password = sys.argv[1]
-    password_hash = passwd( password )
+    password_hash = passwd( password ).replace("$","\$")
     os.system(f"""echo "c.NotebookApp.password = u'{password_hash}'" >> ~/.jupyter/jupyter_notebook_config.py""")
 
 # Note: The command `subprocess` is supposed to be better but I cant get it to work:
