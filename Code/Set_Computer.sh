@@ -55,7 +55,7 @@ pip install redis
 #pip install keras
 
 # Setup hidden files
-mkdir ~/.html_files && mv ~/io_docker_setup/login.html ~/.html_files
+#mkdir ~/.html_files && mv ~/io_docker_setup/login.html ~/.html_files
 mkdir ~/.jupyter/custom && mv ~/wetai_io_docker/Code/Set_Interface.js ~/.jupyter/custom 
 
 # Setup Password
