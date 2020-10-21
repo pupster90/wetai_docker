@@ -22,6 +22,26 @@ apt-get install update
 conda update -y conda
 
 
+### Install nb-extensiosn and GenePattern notebook
+conda install -y -c damianavila82 rise
+conda install -y -c conda-forge jupyter_contrib_nbextensions
+jupyter nbextensions_configurator enable
+jupyter nbextension enable collapsible_headings/main
+jupyter nbextension enable help_panel/help_panel
+jupyter nbextension enable notify/notify
+jupyter nbextension enable toc2/main
+jupyter nbextension enable varInspector/main
+jupyter nbextension enable codefolding/main
+jupyter nbextension enable hide_header/main
+jupyter nbextension enable hide_input_all/main
+jupyter nbextension enable table_beautifier/main
+jupyter nbextension enable codefolding/edit
+jupyter nbextension enable contrib_nbextensions_help_item/main
+jupyter nbextension enable python-markdown/main
+jupyter nbextension enable move_selected_cells/main
+jupyter nbextension enable splitcell/splitcell
+jupyter nbextension enable tree-filter/index
+
 
 
 
