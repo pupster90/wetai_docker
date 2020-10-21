@@ -15,3 +15,14 @@ echo "c.NotebookApp.token = ''" >> ~/.jupyter/jupyter_notebook_config.py
 echo "c.NotebookApp.allow_root = True" >> ~/.jupyter/jupyter_notebook_config.py  
 echo "c.NotebookApp.allow_origin = '*'" >> ~/.jupyter/jupyter_notebook_config.py  
 echo "c.NotebookApp.password = 'sha1:3efc472a30b9:6320e471692e9224957bd4ea358116df997980ed'" >> ~/.jupyter/jupyter_notebook_config.py 
+
+### Generic Software Update
+apt update
+apt-get install update
+conda update -y conda
+
+
+
+
+
+
