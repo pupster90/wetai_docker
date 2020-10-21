@@ -51,4 +51,8 @@ pip install redis
 #pip install tensorflow==2.0.0-alpha0 
 #pip install keras
 
+# Setup hidden files
+mkdir ~/.html_files && mv ~/io_docker_setup/login.html ~/.html_files
+mkdir ~/.jupyter/custom && mv ~/wetai_io_docker/Code/Setup_Interface.js ~/.jupyter/custom 
+
 
