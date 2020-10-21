@@ -62,3 +62,11 @@ mv ~/wetai_io_docker/password /usr/local/bin
 
 
 
+
+
+
+#################
+### Clean up ###
+###############
+rm -rf ~/work ~/ijava-kernel ~/ijava-kernel.zip ~/io_docker_setup
+
