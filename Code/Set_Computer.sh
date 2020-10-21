@@ -1,6 +1,6 @@
 VERSION_NAME=v1.0.0
 # Set io's Version name in custom.js file
-sed -i "s/{VERSION_NAME}/$VERSION_NAME/g"  ~/io_docker_setup/custom.js
+sed -i "s/{VERSION_NAME}/$VERSION_NAME/g"  ~/wetai_io_docker/custom.js
 
 ####################
 ### Basic Setup ###
