@@ -1,2 +1,8 @@
 # Run docker container
 docker run -it --privileged -p 8891:80 --name wet-io --user root jupyter/tensorflow-notebook:feacdbfc2e89 /bin/bash 
+
+
+# These lines save the docker image to Dockerhub
+docker tag gcr.io/pupster900/io:latest gcr.io/pupster900/io:3.0
+docker push gcr.io/pupster900/io:latest
+docker push gcr.io/pupster900/io:3.0
