@@ -25,6 +25,9 @@ conda update -y conda
 ### Install nb-extensiosn and GenePattern notebook
 conda install -y -c conda-forge  rise
 conda install -y -c conda-forge jupyter_contrib_nbextensions
+conda install -c conda-forge jupyter_nbextensions_configurator
+
+# Enable extensions
 jupyter nbextensions_configurator enable
 jupyter nbextension enable collapsible_headings/main
 jupyter nbextension enable help_panel/help_panel
