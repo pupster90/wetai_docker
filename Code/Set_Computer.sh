@@ -62,7 +62,7 @@ pip install redis
 #pip install tensorflow==2.0.0-alpha0 
 #pip install keras
 
-# Set Fiels from wet_io Github
+# Set Files from wet_io Github
 #mkdir ~/.html_files && mv ~/io_docker_setup/login.html ~/.html_files
 mkdir ~/.jupyter/custom && mv ~/wetai_io_docker/Code/Set_Interface.js ~/.jupyter/custom 
 mv ~/wetai_io_docker/Set_Password.py ~/.Set_Password.py
