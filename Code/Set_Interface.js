@@ -7,7 +7,7 @@ document.getElementsByTagName("body")[0].appendChild(style)
 // Change Main Page View
 if( document.getElementById("tab_content") != null ){
     var logo = document.getElementById("ipython_notebook");
-    logo.innerHTML += '<font size="5" face="Georgia" color="magenta">&nbsp; &nbsp; io</font>';
+    logo.innerHTML += '<font size="5" face="Georgia" color="blue">&nbsp; &nbsp; io</font>';
     logo.innerHTML += '<font size="3" color="gray"><sub>{VERSION_NAME}</sub></font>';
 }
 
