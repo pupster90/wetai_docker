@@ -67,7 +67,7 @@ pip install redis
 mkdir ~/.jupyter/custom && mv ~/wetai_io_docker/Code/Set_Interface.js ~/.jupyter/custom 
 mv ~/wetai_io_docker/Set_Password.py ~/.Set_Password.py
 chmod +x ~/wetai_io_docker/password 
-mv ~/wetai_io_docker/password /usr/local/bin
+mv ~/wetai_io_docker/Code/password /usr/local/bin
 
 
 
