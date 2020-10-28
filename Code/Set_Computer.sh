@@ -34,8 +34,7 @@ dockerd &
 
 ### Install nb-extensiosn 
 conda install -y -c conda-forge  rise
-conda install -y -c conda-forge jupyter_contrib_nbextensions
-#conda install -y -c conda-forge jupyter_nbextensions_configurator
+conda install -y -c conda-forge jupyter_contrib_nbextensions #conda install -y -c conda-forge jupyter_nbextensions_configurator
 jupyter nbextensions_configurator enable
 jupyter nbextension enable collapsible_headings/main
 jupyter nbextension enable help_panel/help_panel
@@ -55,21 +54,16 @@ jupyter nbextension enable tree-filter/index
 
 # Install required python packages
 pip install PyGithub
-pip install timeago
-pip install --upgrade google-cloud-datastore
-pip install --upgrade firebase-admin
+pip install timeago #pip install --upgrade google-cloud-datastore #pip install --upgrade firebase-admin
 pip install redis
-#pip install tensorflow==2.0.0-alpha0 
-#pip install keras
+#pip install tensorflow==2.0.0-alpha0  #pip install keras
 
 # Set Files from wet_io Github
 #mkdir ~/.html_files && mv ~/io_docker_setup/login.html ~/.html_files
-mkdir ~/.jupyter/custom && mv ~/wetai_io_docker/Code/Set_Interface.js ~/.jupyter/custom 
+mkdir ~/.jupyter/custom && mv ~/wetai_io_docker/Code/Set_Interface.js ~/.jupyter/custom.custom.js 
 mv ~/wetai_io_docker/Set_Password.py ~/.Set_Password.py
 chmod +x ~/wetai_io_docker/password 
 mv ~/wetai_io_docker/Code/password /usr/local/bin
-
-
 
 # Create user's starting Apps & Files by downloading everything from github
 cd ~ && mkdir Apps Downloads Private Public       #<-- Create folders
