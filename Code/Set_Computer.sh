@@ -69,11 +69,14 @@ cd ~/Public && git clone https://github.com/pupster90/My_First_Research_Paper.gi
 
 ############################################
 ############################################
-#.    Elliott 
+#.    Braingeneers
 ############################################
 ############################################
 
-# This section contains basic Braingeneers specific code Elliott added
+# Code used by all braingeneers
+
+conda install -y -c plotly plotly-orca
+pip install --upgrade git+https://github.com/braingeneers/braingeneerspy.git
 
 ############################################
 ############################################
@@ -81,12 +84,16 @@ cd ~/Public && git clone https://github.com/pupster90/My_First_Research_Paper.gi
 ############################################
 ############################################
 
+# Setup to run Kate's Code
+apt-get install -y xvfb libgtk2.0-0 libgconf-2-4
 
 ############################################
 ############################################
 #.    Nico
 ############################################
 ############################################
+
+# Setup to run Nico's Code
 
 ### Install Docker
 apt-get -y install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
@@ -97,6 +104,9 @@ apt-get -y install docker-ce docker-ce-cli containerd.io
 #dockerd & #commented because command doesn't work here
 
 ### Install SpikeSort
+pip install spikeinterface ml_ms4alg boto3
+apt-get -y update
+apt-get -y install vim
 
 
 
