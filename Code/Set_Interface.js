@@ -139,9 +139,3 @@ if($(IPython.toolbar.selector.concat(' > #clean-view')).length == 0){
     // makes it look pretty
     document.getElementById("clean-view").getElementsByClassName("btn btn-default")[0].className="btn btn-danger"
 } 
-
-
-// Load in Cytcoscape: There should be a better way to do this!
-requirejs.config({ paths: {
-  cytoscape: 'cytoscape.min'
-} });
