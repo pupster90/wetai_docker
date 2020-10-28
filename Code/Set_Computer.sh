@@ -5,9 +5,11 @@ sed -i "s/{VERSION_NAME}/$VERSION_NAME/g"  ~/wetai_io_docker/Code/Set_Interface.
 
 ############################################
 ############################################
-#.    Basic Setup
+#.    Code From Original io
 ############################################
 ############################################
+
+# This section contains modified code that comes from the original io project: https://github.com/pupster90/io_docker_setup
 
 ### Setup Jupyter config file
 echo "c.NotebookApp.ip = '0.0.0.0'" > ~/.jupyter/jupyter_notebook_config.py
@@ -63,6 +65,21 @@ cd ~/Apps && git clone https://github.com/pupster90/io_View.git
 cd ~/Apps && git clone https://github.com/pupster90/io_Online.git
 cd ~/Public && git clone https://github.com/pupster90/My_First_Research_Paper.git
 
+
+
+############################################
+############################################
+#.    Elliott 
+############################################
+############################################
+
+# This section contains basic Braingeneers specific code Elliott added
+
+############################################
+############################################
+#.    Kate
+############################################
+############################################
 
 
 ############################################
