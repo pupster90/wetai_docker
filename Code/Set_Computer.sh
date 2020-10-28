@@ -52,7 +52,7 @@ pip install redis
 
 # Set Files from wet_io Github
 #mkdir ~/.html_files && mv ~/io_docker_setup/login.html ~/.html_files
-mkdir ~/.jupyter/custom && mv ~/wetai_io_docker/Code/Set_Interface.js ~/.jupyter/custom.custom.js 
+mkdir ~/.jupyter/custom && mv ~/wetai_io_docker/Code/Set_Interface.js ~/.jupyter/custom/custom.js 
 mv ~/wetai_io_docker/Code/Password/Set_Password.py ~/.Set_Password.py
 chmod +x ~/wetai_io_docker/Code/Password/password.sh && mv ~/wetai_io_docker/Code/Password/password.sh /usr/local/bin/password
 
