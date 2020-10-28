@@ -2,9 +2,6 @@ VERSION_NAME=v1.0.0
 # Set io's Version name in custom.js file
 sed -i "s/{VERSION_NAME}/$VERSION_NAME/g"  ~/wetai_io_docker/Code/Set_Interface.js
 
-####################
-### Basic Setup ###
-##################
 
 ### Setup Jupyter config file
 echo "c.NotebookApp.ip = '0.0.0.0'" > ~/.jupyter/jupyter_notebook_config.py
@@ -21,7 +18,6 @@ apt update
 apt-get install update
 conda update -y conda
 
-
 ### Install Docker
 apt-get -y install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
@@ -34,8 +30,6 @@ dockerd &
 conda install -y -c conda-forge  rise
 conda install -y -c conda-forge jupyter_contrib_nbextensions
 #conda install -y -c conda-forge jupyter_nbextensions_configurator
-
-# Enable extensions
 jupyter nbextensions_configurator enable
 jupyter nbextension enable collapsible_headings/main
 jupyter nbextension enable help_panel/help_panel
