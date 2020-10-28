@@ -3,7 +3,7 @@
 dockerd &
 
 PASSWORD="$1";
-if [ "$1" != '--http' ]; then
+if [ "$1" == '--http' ]; then
     cd ~/.jupyter && openssl req -x509 -batch  -nodes -days 999 -newkey rsa:2048 -keyout mykey.key -out mycert.pem;
     echo "c.NotebookApp.certfile = u'/home/jovyan/.jupyter/mycert.pem'" >> ~/.jupyter/jupyter_notebook_config.py;
     echo "c.NotebookApp.keyfile =  u'/home/jovyan/.jupyter/mykey.key'"  >> ~/.jupyter/jupyter_notebook_config.py;
