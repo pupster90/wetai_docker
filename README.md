@@ -4,6 +4,7 @@
 
 # Helpful Docker Commands
 **Run docker container**
+
 `docker run -it --privileged -p 8891:80 --name wet-io --user root jupyter/tensorflow-notebook:feacdbfc2e89 /bin/bash `
 
 **commits a docker container**
