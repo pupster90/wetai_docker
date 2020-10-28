@@ -32,7 +32,7 @@ apt-get update
 apt-get -y install docker-ce docker-ce-cli containerd.io
 dockerd &
 
-### Install nb-extensiosn and GenePattern notebook
+### Install nb-extensiosn 
 conda install -y -c conda-forge  rise
 conda install -y -c conda-forge jupyter_contrib_nbextensions
 #conda install -y -c conda-forge jupyter_nbextensions_configurator
