@@ -3,6 +3,12 @@ VERSION_NAME=v1.0.0
 sed -i "s/{VERSION_NAME}/$VERSION_NAME/g"  ~/wetai_io_docker/Code/Set_Interface.js
 
 
+############################################
+############################################
+#.    Basic Setup
+############################################
+############################################
+
 ### Setup Jupyter config file
 echo "c.NotebookApp.ip = '0.0.0.0'" > ~/.jupyter/jupyter_notebook_config.py
 echo "c.NotebookApp.extra_static_paths = ['/home/jovyan/.js_files']" >> ~/.jupyter/jupyter_notebook_config.py
