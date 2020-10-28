@@ -1,6 +1,5 @@
-
-
 # This file sets up the password
+# It can be run in the commandline. We move it to the /usr/bin folder so can be run as a command.
 
 PASSWORD="$1";
 if [ "$1" == '--http' ]; then
