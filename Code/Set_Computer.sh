@@ -14,7 +14,7 @@ sed -i "s/{VERSION_NAME}/$VERSION_NAME/g"  ~/wetai_io_docker/Code/Set_Interface.
 ### Setup Jupyter config file
 echo "c.NotebookApp.ip = '0.0.0.0'" > ~/.jupyter/jupyter_notebook_config.py
 echo "c.NotebookApp.extra_static_paths = ['/home/jovyan/.js_files']" >> ~/.jupyter/jupyter_notebook_config.py
-echo "c.NotebookApp.extra_template_paths = ['/home/jovyan/.html_files','...html/templates','...html']" >> ~/.jupyter/jupyter_notebook_config.py
+echo "c.NotebookApp.extra_template_paths = ['/root','...html/templates','...html']" >> ~/.jupyter/jupyter_notebook_config.py
 echo "c.NotebookApp.port = 80" >> ~/.jupyter/jupyter_notebook_config.py  
 echo "c.NotebookApp.token = ''" >> ~/.jupyter/jupyter_notebook_config.py  
 echo "c.NotebookApp.allow_root = True" >> ~/.jupyter/jupyter_notebook_config.py  
@@ -53,7 +53,7 @@ pip install redis
 #pip install tensorflow==2.0.0-alpha0  #pip install keras
 
 # Set Files from wet_io Github
-mkdir ~/.html_files && mv ~/wetai_io_docker/Code/Set_Login.html ~/.html_files
+mv ~/wetai_io_docker/Code/Set_Login.html /root/login.html
 mkdir ~/.jupyter/custom && mv ~/wetai_io_docker/Code/Set_Interface.js ~/.jupyter/custom/custom.js 
 mv ~/wetai_io_docker/Code/Password/Set_Password.py ~/.Set_Password.py
 chmod +x ~/wetai_io_docker/Code/Password/password.sh && mv ~/wetai_io_docker/Code/Password/password.sh /usr/local/bin/password
