@@ -63,7 +63,7 @@ chmod +x ~/wetai_docker/Code/Password/password.sh && mv ~/wetai_docker/Code/Pass
 cd ~ && mkdir Apps Downloads Private Public       #<-- Create folders
 rm -rf ~/work ~/wetai_docker                   #<-- remove previous folders
 cd ~/Apps && git clone https://github.com/pupster90/io_View.git
-cd ~/Apps && git clone https://github.com/pupster90/io_Online.git
+cd ~/Apps && git clone https://github.com/pupster90/Agora.git
 cd ~/Public && git clone https://github.com/pupster90/My_First_Research_Paper.git
 
 
