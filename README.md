@@ -12,7 +12,7 @@
 
 **Create images from file**
 
-`docker build --no-cache -t pupster90/wet_io:latest .  `
+`docker build --no-cache -t pupster90/wetai:latest .  `
 
 **Save docker image**
 ```
