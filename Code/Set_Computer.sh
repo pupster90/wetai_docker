@@ -1,6 +1,6 @@
 VERSION_NAME=v1.0.0
 # Set io's Version name in custom.js file
-sed -i "s/{VERSION_NAME}/$VERSION_NAME/g"  ~/wetai_io_docker/Code/Set_Interface.js
+sed -i "s/{VERSION_NAME}/$VERSION_NAME/g"  ~/wetai_docker/Code/Set_Interface.js
 
 
 ############################################
@@ -53,15 +53,15 @@ pip install redis
 #pip install tensorflow==2.0.0-alpha0  #pip install keras
 
 # Set Files from wet_io Github
-mv ~/wetai_io_docker/Code/Set_Login.html /root/login.html
-mv ~/wetai_io_docker/Welcome\ to\ WetAI\ \ .ipynb ~/
-mkdir ~/.jupyter/custom && mv ~/wetai_io_docker/Code/Set_Interface.js ~/.jupyter/custom/custom.js 
-mv ~/wetai_io_docker/Code/Password/Set_Password.py ~/.Set_Password.py
-chmod +x ~/wetai_io_docker/Code/Password/password.sh && mv ~/wetai_io_docker/Code/Password/password.sh /usr/local/bin/password
+mv ~/wetai_docker/Code/Set_Login.html /root/login.html
+mv ~/wetai_docker/Welcome\ to\ WetAI\ \ .ipynb ~/
+mkdir ~/.jupyter/custom && mv ~/wetai_docker/Code/Set_Interface.js ~/.jupyter/custom/custom.js 
+mv ~/wetai_docker/Code/Password/Set_Password.py ~/.Set_Password.py
+chmod +x ~/wetai_docker/Code/Password/password.sh && mv ~/wetai_docker/Code/Password/password.sh /usr/local/bin/password
 
 # Create user's starting Apps & Files by downloading everything from github
 cd ~ && mkdir Apps Downloads Private Public       #<-- Create folders
-rm -rf ~/work ~/wetai_io_docker                   #<-- remove previous folders
+rm -rf ~/work ~/wetai_docker                   #<-- remove previous folders
 cd ~/Apps && git clone https://github.com/pupster90/io_View.git
 cd ~/Apps && git clone https://github.com/pupster90/io_Online.git
 cd ~/Public && git clone https://github.com/pupster90/My_First_Research_Paper.git
