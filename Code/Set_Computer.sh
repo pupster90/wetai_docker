@@ -60,11 +60,11 @@ mv ~/wetai_docker/Code/Password/Set_Password.py ~/.Set_Password.py
 chmod +x ~/wetai_docker/Code/Password/password.sh && mv ~/wetai_docker/Code/Password/password.sh /usr/local/bin/password
 
 # Create user's starting Apps & Files by downloading everything from github
-cd ~ && mkdir Apps Downloads Private Public       #<-- Create folders
+cd ~ && mkdir Apps Documents                   #<-- Create folders
 rm -rf ~/work ~/wetai_docker                   #<-- remove previous folders
 cd ~/Apps && git clone https://github.com/pupster90/Agora.git
 cd ~/Apps && git clone https://github.com/pupster90/Learn_io.git
-cd ~/Public && git clone https://github.com/pupster90/My_First_Research_Paper.git
+cd ~/Documents && git clone https://github.com/pupster90/My_First_Research_Paper.git
 
 
 
