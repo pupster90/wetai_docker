@@ -64,7 +64,7 @@ cd ~ && mkdir Apps Documents                   #<-- Create folders
 rm -rf ~/work ~/wetai_docker                   #<-- remove previous folders
 cd ~/Apps && git clone https://github.com/pupster90/Agora.git
 cd ~/Apps && git clone https://github.com/pupster90/Learn_io.git
-cd ~/Documents && git clone https://github.com/pupster90/My_First_Research_Paper.git
+#cd ~/Documents && git clone https://github.com/pupster90/My_First_Research_Paper.git
 
 
 
