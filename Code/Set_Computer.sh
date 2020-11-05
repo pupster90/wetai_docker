@@ -61,9 +61,9 @@ chmod +x ~/wetai_docker/Code/Password/password.sh && mv ~/wetai_docker/Code/Pass
 
 # Create user's starting Apps & Files by downloading everything from github
 cd ~ && mkdir Apps Documents                   #<-- Create folders
+cd ~/Apps && mkdir  braingeneers
 rm -rf ~/work ~/wetai_docker                   #<-- remove previous folders
-cd ~/Apps && git clone https://github.com/pupster90/Agora.git
-cd ~/Apps && git clone https://github.com/pupster90/Learn_io.git
+cd ~/Apps/braingeneers && git clone https://github.com/pupster90/Agora.git && git clone https://github.com/pupster90/Learn_io.git
 #cd ~/Documents && git clone https://github.com/pupster90/My_First_Research_Paper.git
 
 
