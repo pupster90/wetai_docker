@@ -78,8 +78,9 @@ cd ~/Apps/braingeneers && git clone https://github.com/pupster90/spikesort_easy.
 # Code used by all braingeneers
 
 conda install -y -c plotly plotly-orca
-pip install --upgrade git+https://github.com/braingeneers/braingeneerspy.git
-cd ~ && mkdir .aws # Setup for AWS
+apt-get install -y --no-install-recommends awscli # Install aws
+pip install --upgrade git+https://github.com/braingeneers/braingeneerspy.git # install braingeneers python package
+cd ~ && mkdir .aws # Setup for AWS credentials file
 touch ~/.aws/credentials
 
 
