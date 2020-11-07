@@ -102,7 +102,7 @@ if( document.getElementById("notebook-container") != null ){
 // create "web view" button for notebooks
 if( $(IPython.toolbar.selector.concat(' > #web-view')).length == 0 ){
   IPython.toolbar.add_buttons_group([
-        {    'label'   : ' Web',
+        {    'label'   : ' ',
              'icon'    : 'fa fa-lg fa-id-card-o',
              'callback': function(){
                  IPython.notebook.execute_all_cells();
