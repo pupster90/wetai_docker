@@ -83,6 +83,14 @@ pip install --upgrade git+https://github.com/braingeneers/braingeneerspy.git # i
 cd ~ && mkdir .aws # Setup for AWS credentials file
 touch ~/.aws/credentials
 
+############################################
+############################################
+#.    David Parks
+############################################
+############################################
+echo 'alias aws3="aws --endpoint https://s3.nautilus.optiputer.net s3"' >> ~/.bashrc
+echo 'alias awsn="aws --endpoint https://s3.nautilus.optiputer.net"' >> ~/.bashrc
+
 
 ############################################
 ############################################
