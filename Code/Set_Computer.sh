@@ -63,8 +63,9 @@ chmod +x ~/wetai_docker/Code/Password/password.sh && mv ~/wetai_docker/Code/Pass
 cd ~ && mkdir Apps Documents                   #<-- Create folders
 cd ~/Apps && mkdir  braingeneers
 rm -rf ~/work ~/wetai_docker                   #<-- remove previous folders
-cd ~/Apps/braingeneers && git clone https://github.com/pupster90/Agora.git && git clone https://github.com/pupster90/Learn_io.git
-cd ~/Apps/braingeneers && git clone https://github.com/pupster90/spikesort_easy.git
+#cd ~/Apps/braingeneers && git clone https://github.com/pupster90/Agora.git && git clone https://github.com/pupster90/Learn_io.git
+cd ~/Apps/braingeneers && git clone https://github.com/pupster90/Agora.git && git clone https://github.com/braingeneers/Learn_WetAI.git
+git clone cd ~/Apps/braingeneers && git clone https://github.com/pupster90/spikesort_easy.git
 #cd ~/Documents && git clone https://github.com/pupster90/My_First_Research_Paper.git
 
 
